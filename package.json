@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "core-js": "^3.26.0",
+    "svgo": "^2.8.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "name": "guessing-game",
+  "version": "1.0.0",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dir"
+  },
+  "author": "Abu",
+  "license": "ISC",
+  "description": "A Guessing Game"
+}
